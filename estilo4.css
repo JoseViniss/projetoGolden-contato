@@ -1,0 +1,175 @@
+@font-face {
+    font-family: promo;
+    src: url(fontes/JosefinSans-Medium.ttf);
+ }
+
+ @font-face {
+    font-family: bebas;
+    src: url(fontes/BebasNeue-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: opensans;
+    src: url(fontes/JosefinSans-Bold.ttf);
+ }
+
+ @font-face {
+    font-family: roboto;
+    src: url(fontes/Roboto-MediumItalic.ttf);
+ }
+
+ @font-face {
+    font-family: street;
+    src: url(fontes/Da\ Streets.ttf);
+ }
+
+*{
+    box-sizing: border-box;
+}
+
+#topo{
+    background-color:#1C1C1C;
+    padding-top: 120px;
+    margin: -8px;
+}
+
+#menu_h{
+    list-style: none;
+    padding: 0;
+}
+
+#menu_h li{
+    display: inline;
+}
+
+
+#menu_h li a{
+    color: rgb(255, 255, 255);
+    padding: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: opensans, sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+}
+
+#menu_h a:hover{
+    color: rgb(53, 53, 53);
+    text-decoration: none;
+}
+
+#banner{
+    position: absolute;
+    width: 1349px;
+    left: 0%;
+    top: 240px;
+}
+
+#logo{
+    position: absolute;
+    top: 0%;
+    left: 30%;
+    width: 500px;
+}
+
+#promo{
+    width: 1351px;
+    height: 50px;
+    background-color:#1C1C1C;
+    position: relative;
+    top: 140px;
+    left: -10px;
+}
+
+main{
+    margin: -8px;
+    background-color:rgb(65, 65, 65);
+    padding-top: 280px;
+}
+
+h1{
+    font-family: street, bebas, sans-serif;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(26, 26, 26);
+    border: 3px solid black;
+}
+
+#titulo{
+    background-color: rgb(240, 240, 240);
+}
+
+.nome{
+    text-align: center;
+    font-family: roboto;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.formulario{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    left: 470px;
+    padding-bottom: -10px;
+}
+
+select{
+    position: absolute;
+    top: 1175px;
+    left: 750px;
+    height: 40px;
+    width: 60px;
+}
+
+#criticas{
+    position: relative;
+    left: 520px;
+}
+
+#radius{
+    left: 400px;
+}
+
+button{
+    position: relative;
+    left: 645px;
+    top: -13px;
+    height:30px;
+    width: 50px;
+}
+
+footer{
+    padding-top: 10px;
+    height: 200px;
+    margin: -8px;
+    background-color: rgb(15, 14, 14);
+}
+
+.blacklink{
+    color: white;
+}
+
+.blacklink :hover{
+    color: black;
+    text-decoration: none;
+}
+
+#sobre{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#sobre2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(143, 143, 143);
+}
+
+#instagram{
+    width: 30px;
+    position: relative;
+    left: 910px;
+    top: -45px;
+}
